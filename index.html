@@ -476,11 +476,10 @@
   }
   .partner-chip:hover span{ color:#fff; }
   .partner-logo{
-    max-height:30px; max-width:80%; width:auto; object-fit:contain;
-    filter:grayscale(1) brightness(2.2) opacity(0.8);
-    transition:filter .3s;
+    max-height:34px; max-width:82%; width:auto; object-fit:contain;
+    transition:transform .3s;
   }
-  .partner-chip:hover .partner-logo{ filter:grayscale(0) brightness(1) opacity(1); }
+  .partner-chip:hover .partner-logo{ transform:scale(1.05); }
   @media (max-width: 640px){
     .partners-grid{ grid-template-columns:repeat(2, 1fr); }
   }
